@@ -7,6 +7,7 @@ const SearchBar = ({ onSearch }) => {
   };
 return (
     <input
+    style={{height: '20px', width: '200px', borderRadius: '5px'}}
       type="text"
       onChange={handleInputChange}
       placeholder="Search by ID..."

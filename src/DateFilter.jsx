@@ -16,9 +16,9 @@ const DateFilter = ({ onDateFilterChange }) => {
 
   return (
     <div>
-      <label htmlFor="fromDate">From:</label>
-      <input type="date" id="fromDate" onChange={handleFromChange} />
-      <label htmlFor="toDate">To:</label>
+      <label htmlFor="fromDate">From:&nbsp;</label>
+      <input type="date" id="fromDate" onChange={handleFromChange} />&nbsp;&nbsp;
+      <label htmlFor="toDate">To:&nbsp;</label>
       <input type="date" id="toDate" onChange={handleToChange} />
     </div>
   );

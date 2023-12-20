@@ -110,7 +110,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="filters-row">
-        <h1>Admin Panel - Transaction Data</h1>
+        <h1>Admin Panel For Transactions Data</h1>
         <SearchBar onSearch={handleSearch} />
         <div className="filters">
           <DateFilter onDateFilterChange={handleDateFilter} />
